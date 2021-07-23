@@ -1,0 +1,58 @@
+.Wrapper {
+  display: grid;
+  height: 80px;
+  max-width: 1800px;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  margin: 40px auto;
+}
+
+.SelectCol {
+  border-right: 1px solid var(--colors-neutrals-4);
+  text-align: left;
+  padding: 10px 30px;
+  font-family: var(--fonts-sans);
+}
+
+.SelectEyebrow {
+  font-family: var(--fonts-sans);
+}
+
+.SelectValue {
+  font-weight: 600;
+  font-size: 18px;
+  margin-top: 5px;
+  display: block;
+}
+
+.borderlessSelectCol {
+  border-right: none;
+}
+
+.SelectButton {
+  text-align: right;
+  padding-right: 30px;
+}
+
+.Button {
+  font-family: var(--fonts-sans);
+  padding: 20px 40px;
+  border: none;
+  text-transform: uppercase;
+  background-color: var(--colors-brand-yellow-primary);
+}
+
+@media (max-width: 768px) {
+  .Wrapper {
+    grid-template-columns: 1fr;
+    height: auto;
+  }
+
+  .SelectButton {
+    text-align: left;
+    margin-left: 30px;
+    margin-top: 10px;
+  }
+}

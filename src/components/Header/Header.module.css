@@ -1,0 +1,82 @@
+.Wrapper {
+  display: grid;
+  height: 80px;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: 80px auto 1fr auto 80px;
+  border-bottom: 1px solid var(--colors-neutrals-4);
+}
+
+.IconWrapper {
+  height: 100%;
+  width: 80px;
+  border-right: 1px solid var(--colors-neutrals-4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hamburgerIconWrapper {
+  border-right: 1px solid var(--colors-neutrals-4);
+}
+
+.searchIconWrapper {
+  border-left: 1px solid var(--colors-neutrals-4);
+}
+
+.Hamburger {
+  display: block;
+  height: 40px;
+  width: 40px;
+  box-sizing: border-box;
+}
+
+.HamburgerLine {
+  width: 40px;
+  height: 2px;
+  background-color: var(--colors-neutrals-7);
+  margin: 6px 0;
+}
+
+.NavLeft {
+  height: 100%;
+  font-family: var(--fonts-sans);
+  display: flex;
+  text-transform: uppercase;
+  padding-left: 30px;
+}
+
+.NavRight {
+  height: 100%;
+  font-family: var(--fonts-sans);
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 30px;
+}
+
+.NavItem {
+  height: auto;
+  display: flex;
+  align-items: center;
+  margin: 0 24px;
+}
+
+.activeNavItem {
+  border-bottom: 1px solid var(--colors-brand-yellow-primary);
+}
+
+.SearchIcon {
+  width: 20px;
+  height: 20px;
+}
+
+@media (max-width: 768px) {
+  .Wrapper {
+    grid-template-columns: 80px 1fr 80px;
+  }
+
+  .NavLeft,
+  .NavRight {
+    display: none;
+  }
+}

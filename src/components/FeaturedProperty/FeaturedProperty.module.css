@@ -1,0 +1,43 @@
+.Wrapper {
+  background-color: var(--colors-brand-orange-lightest);
+  padding: 40px;
+}
+
+.Title {
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+
+.Detail {
+  font-family: var(--fonts-sans);
+  padding: 10px;
+}
+
+.featureDetail {
+  margin: 3px;
+  padding: 10px 20px;
+  border-right: 1px solid var(--colors-neutrals-6);
+  display: flex;
+  align-items: center;
+}
+
+.featureDetail:last-child {
+  border-right: 0;
+}
+
+.FeatureIcon {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.FeaturedDetails {
+  border-top: 1px solid var(--colors-neutrals-6);
+  border-bottom: 1px solid var(--colors-neutrals-6);
+  display: inline-flex;
+  font-family: var(--fonts-sans);
+  padding: 10px;
+  margin-top: 20px;
+  align-items: center;
+}

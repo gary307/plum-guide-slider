@@ -1,0 +1,49 @@
+.Wrapper {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.ImageContainer {
+  margin-top: 40px;
+  display: block;
+  width: 100%;
+  height: 64%;
+  display: flex;
+}
+
+.Slider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.Image {
+  max-width: 100%;
+  display: none;
+}
+
+.ArrowLeft {
+  margin-right: 20px;
+}
+
+.ArrowRight {
+  margin-left: 20px;
+}
+
+.activeImage {
+  display: block;
+}
+
+.Buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  font-family: var(--fonts-sans);
+  width: 100%;
+}
+
+.Button {
+  cursor: pointer;
+}

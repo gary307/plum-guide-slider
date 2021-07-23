@@ -1,3 +1,10 @@
+# plum demo application
+
+This project has been setup using CRA. To run project locally, use the following steps:
+
+1. run 'yarn install / npm install'
+2. run 'yarn start / npm start'
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
