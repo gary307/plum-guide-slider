@@ -4,7 +4,7 @@ import axios from "axios";
 import { useState, useEffect, useRef } from "react";
 
 const ImageSlider = () => {
-  const [images, setImages] = useState<Array<any>>([]);
+  const [images, setImages] = useState<Array<string>>([]);
   const [imageIndex, setImageIndex] = useState<number>(0);
   const imageRef = useRef<HTMLImageElement>(null);
   const [sliderOffset, setSliderOffset] = useState<number>(0);
